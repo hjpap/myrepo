@@ -1,0 +1,651 @@
+11:49:19.951 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+11:49:19.958 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437536959958
+11:49:20.002 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+11:49:20.004 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+11:49:20.005 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.006 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+11:49:20.006 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+11:49:20.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+11:49:20.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (SSTP)
+11:49:20.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.011 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (SSTP)
+11:49:20.011 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (L2TP)
+11:49:20.012 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.014 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.014 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (L2TP)
+11:49:20.015 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPTP)
+11:49:20.016 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.018 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.018 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPTP)
+11:49:20.019 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPPOE)
+11:49:20.021 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.023 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.023 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPPOE)
+11:49:20.023 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)
+11:49:20.026 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.028 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.028 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)
+11:49:20.028 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+11:49:20.030 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.032 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.032 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)
+11:49:20.032 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)
+11:49:20.034 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.036 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.036 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)
+11:49:20.036 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface RAS Async Adapter
+11:49:20.038 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.040 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.040 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface RAS Async Adapter
+11:49:20.040 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IKEv2)
+11:49:20.042 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.044 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.045 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IKEv2)
+11:49:20.045 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Ethernet Connection I217-LM
+11:49:20.047 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.049 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.049 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.16.2.47
+11:49:20.049 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a955:ff53:88f0:dbe8%11
+11:49:20.050 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Intel(R) Ethernet Connection I217-LM
+11:49:20.050 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+11:49:20.051 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.053 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.053 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.116.1
+11:49:20.054 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:64ad:1486:ecb3:93db%12
+11:49:20.054 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet1
+11:49:20.054 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #2
+11:49:20.056 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.058 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+11:49:20.058 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:8801%13
+11:49:20.059 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+11:49:20.061 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.064 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.064 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.136.1
+11:49:20.065 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:452:b2a6:ccdc:8254%14
+11:49:20.065 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet8
+11:49:20.066 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #3
+11:49:20.068 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.069 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+11:49:20.070 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:7401%15
+11:49:20.070 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+11:49:20.072 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.076 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+11:49:20.077 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:200:5efe:c010:22f%16
+11:49:20.077 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Teredo Tunneling Pseudo-Interface
+11:49:20.079 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.081 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+11:49:20.081 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:100:7f:fffe%17
+11:49:20.082 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft 6to4 Adapter
+11:49:20.084 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.086 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+11:49:20.086 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /2002:c010:22f:0:0:0:c010:22f
+11:49:20.086 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Ethernet Connection I217-LM-QoS Packet Scheduler-0000
+11:49:20.088 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.090 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.091 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Ethernet Connection I217-LM-QoS Packet Scheduler-0000
+11:49:20.091 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Ethernet Connection I217-LM-WFP LightWeight Filter-0000
+11:49:20.093 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.095 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.096 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Ethernet Connection I217-LM-WFP LightWeight Filter-0000
+11:49:20.096 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+11:49:20.098 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.099 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.099 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+11:49:20.099 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+11:49:20.101 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.102 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.102 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+11:49:20.103 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+11:49:20.104 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+11:49:20.106 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+11:49:20.106 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+11:49:20.109 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+11:49:20.113 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Wed Jul 22 11:49:20 CST 2015, with address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:20.114 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:20.114 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+11:49:20.115 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+11:49:20.122 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+11:49:20.125 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+11:49:20.127 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+11:49:20.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+11:49:20.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+11:49:20.144 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+11:49:20.146 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+11:49:20.148 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+11:49:20.149 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+11:49:20.149 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 10800000ms
+11:49:20.150 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Jul 22 14:49:19 CST 2015
+11:49:20.167 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:51393 to /127.0.0.1:51392.
+11:49:20.221 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Build
+11:49:20.222 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}
+11:49:20.222 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}.
+11:49:20.223 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse} with connection: socket connection from /127.0.0.1:51392 to /127.0.0.1:51393.
+11:49:20.229 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@b4e3a1] after 0.0 minutes of idle
+11:49:20.229 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:20.230 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:20.230 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+11:49:20.231 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+11:49:20.234 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+11:49:20.234 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437536960234
+11:49:20.235 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+11:49:20.235 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}. Dispatching build started information...
+11:49:20.236 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+11:49:20.238 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\ricky, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log, JAVA_HOME=C:\Program Files\Java\jdk1.7.0_60, ProgramFiles(x86)=C:\Program Files (x86), windows_tracing_flags=3, TEMP=C:\Users\ricky\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_60\bin;E:\dev_tool\gradle-2.2.1-all\gradle-2.2.1\bin;E:\soft\TortoiseGit\bin;E:\soft\apache-maven-3.2.1\bin;E:\soft\TortoiseSVN1.7\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;E:\soft\apache-maven-3.2.1\bin;;C:\Program Files (x86)\Instantclient;C:\Program Files (x86)\Instantclient\bin;C:\Users\ricky\AppData\Roaming\npm, HOMEDRIVE=C:, PROCESSOR_REVISION=3c03, USERDOMAIN=ricky-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, tomcat_home=E:\soft\apache-tomcat-7.0.61, SESSIONNAME=Console, TMP=C:\Users\ricky\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\RICKY-PC, M2_HOME=E:\soft\apache-maven-3.2.1, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\ricky, GRADLE_USER_HOME=E:\myrepo, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\ricky\AppData\Local, COMPUTERNAME=RICKY-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=ricky, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\ricky\AppData\Roaming}
+11:49:20.248 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+11:49:20.248 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 4560). The daemon log file: E:\myrepo\daemon\2.2.1\daemon-4560.out.log
+11:49:20.249 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.CloseInput
+11:49:20.249 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=5231f953-0f48-4980-8eb5-930caa450fa9.2]
+11:49:20.250 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+11:49:20.250 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+11:49:20.252 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+11:49:20.253 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+
+BUILD SUCCESSFUL
+
+Total time: 46.139 secs
+Download https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+Download https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom
+Download https://repo1.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.6.RELEASE/spring-oxm-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.pom
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis-parent/21/mybatis-parent-21.pom
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+Download https://repo1.maven.org/maven2/com/alibaba/druid/1.0.13/druid-1.0.13.pom
+Download https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.pom
+Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.pom
+Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator-parent/5.1.3.Final/hibernate-validator-parent-5.1.3.Final.pom
+Download https://repo1.maven.org/maven2/org/jboss/arquillian/arquillian-bom/1.0.2.Final/arquillian-bom-1.0.2.Final.pom
+Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.0.1/shrinkwrap-bom-1.0.1.pom
+Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/1.0.0-beta-7/shrinkwrap-resolver-bom-1.0.0-beta-7.pom
+Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-3/shrinkwrap-descriptors-bom-2.0.0-alpha-3.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
+Download https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+Download https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.pom
+Download https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+Download https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.pom
+Download https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.pom
+Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Download https://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+11:49:34.467 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+11:49:34.467 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+11:49:34.467 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\buildscript).
+11:49:34.468 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\no_buildscript).
+11:49:34.469 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-repository.bin)
+11:49:34.469 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-versions.bin)
+11:49:34.470 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-url.bin)
+11:49:34.470 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-metadata.bin)
+11:49:34.470 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (E:\myrepo\caches\modules-2).
+11:49:34.471 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (E:\myrepo\caches\jars-1) was closed 0 times.
+11:49:34.471 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (E:\myrepo\caches\2.2.1\plugin-resolution) was closed 0 times.
+11:49:34.473 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 1 (avg: 0.004 secs, total: 0.004 secs)
+11:49:34.473 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+11:49:34.474 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+11:49:34.474 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 2, cache instances: 2, modules served from cache: 20, artifacts: 7
+11:49:34.474 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+11:49:34.626 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+11:49:34.627 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@b4e3a1]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@564ea86d with state Running
+11:49:34.627 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@b4e3a1]
+11:49:34.627 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+11:49:34.627 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437536974627
+11:49:34.628 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:34.628 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:51402<->199.27.79.209:443 closed
+11:49:34.628 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+11:49:34.628 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:51402<->199.27.79.209:443 closed
+11:49:34.629 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+11:49:34.629 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+11:49:34.630 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+11:49:34.632 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+11:49:34.633 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Jul 22 14:49:34 CST 2015
+11:49:34.633 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=org.gradle.tooling.internal.provider.BuildActionResult@1cf2230f]
+11:49:34.633 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+11:49:34.641 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=5231f953-0f48-4980-8eb5-930caa450fa9.1, currentDir=E:\dev_tool\eclipse}
+11:49:34.651 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Finished
+11:49:34.651 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@122a10c5
+11:49:34.652 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@122a10c5
+11:49:34.652 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received null
+11:49:34.652 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+11:49:34.652 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+11:49:34.653 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:27:41.397 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:52524 to /127.0.0.1:51392.
+13:27:41.460 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received class org.gradle.launcher.daemon.protocol.Build
+13:27:41.461 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}
+13:27:41.461 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}.
+13:27:41.461 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse} with connection: socket connection from /127.0.0.1:51392 to /127.0.0.1:52524.
+13:27:41.462 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2d381822] after 98.0 minutes of idle
+13:27:41.462 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:27:41.462 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:27:41.463 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:27:41.464 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:27:41.466 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:27:41.466 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437542861466
+13:27:41.467 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:27:41.469 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}. Dispatching build started information...
+13:27:41.469 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:27:41.470 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\ricky, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log, JAVA_HOME=C:\Program Files\Java\jdk1.7.0_60, ProgramFiles(x86)=C:\Program Files (x86), windows_tracing_flags=3, TEMP=C:\Users\ricky\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_60\bin;E:\dev_tool\gradle-2.2.1-all\gradle-2.2.1\bin;E:\soft\TortoiseGit\bin;E:\soft\apache-maven-3.2.1\bin;E:\soft\TortoiseSVN1.7\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;E:\soft\apache-maven-3.2.1\bin;;C:\Program Files (x86)\Instantclient;C:\Program Files (x86)\Instantclient\bin;C:\Users\ricky\AppData\Roaming\npm, HOMEDRIVE=C:, PROCESSOR_REVISION=3c03, USERDOMAIN=ricky-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, tomcat_home=E:\soft\apache-tomcat-7.0.61, SESSIONNAME=Console, TMP=C:\Users\ricky\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\RICKY-PC, M2_HOME=E:\soft\apache-maven-3.2.1, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\ricky, GRADLE_USER_HOME=E:\myrepo, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\ricky\AppData\Local, COMPUTERNAME=RICKY-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=ricky, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\ricky\AppData\Roaming}
+13:27:41.471 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:27:41.471 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 4560). The daemon log file: E:\myrepo\daemon\2.2.1\daemon-4560.out.log
+13:27:41.472 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:27:41.472 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+
+BUILD SUCCESSFUL
+
+Total time: 0.263 secs
+Download https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+Download https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar
+Download https://repo1.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.6.RELEASE/spring-oxm-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+Download https://repo1.maven.org/maven2/com/alibaba/druid/1.0.13/druid-1.0.13.jar
+Download https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar
+Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+Download https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar
+Download https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+Download https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+Download https://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+Download https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar
+Download https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar
+Download https://repo1.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.6.RELEASE/spring-oxm-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar
+Download https://repo1.maven.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+Download https://repo1.maven.org/maven2/com/alibaba/druid/1.0.13/druid-1.0.13-sources.jar
+Download https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34-sources.jar
+Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final-sources.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar
+Download https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3-sources.jar
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE-sources.jar
+Download https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
+Download https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-sources.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0-sources.jar
+Download https://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2-sources.jar
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+13:28:31.317 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:28:31.317 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:28:31.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\buildscript).
+13:28:31.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\no_buildscript).
+13:28:31.318 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (E:\myrepo\caches\2.2.1\plugin-resolution) was closed 0 times.
+13:28:31.319 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-artifacts.bin)
+13:28:31.319 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-url.bin)
+13:28:31.319 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-metadata.bin)
+13:28:31.320 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-repository.bin)
+13:28:31.320 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-versions.bin)
+13:28:31.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (E:\myrepo\caches\modules-2).
+13:28:31.321 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (E:\myrepo\caches\jars-1) was closed 0 times.
+13:28:31.322 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 1, disk reads: 2 (avg: 0.002 secs, total: 0.004 secs)
+13:28:31.323 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:28:31.323 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+13:28:31.323 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 4, cache instances: 2, modules served from cache: 60, artifacts: 3
+13:28:31.323 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:28:31.440 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:28:31.440 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2d381822]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@564ea86d with state Running
+13:28:31.441 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2d381822]
+13:28:31.441 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437542911441
+13:28:31.441 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:31.441 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:31.442 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:28:31.442 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:28:31.446 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:28:31.446 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:52724<->23.235.47.209:443 closed
+13:28:31.447 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:52724<->23.235.47.209:443 closed
+13:28:31.447 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:28:31.447 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:28:31.447 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:52534<->23.235.47.209:443 closed
+13:28:31.448 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:52534<->23.235.47.209:443 closed
+13:28:31.448 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:28:31.451 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:28:31.452 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Jul 22 16:28:31 CST 2015
+13:28:31.452 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=org.gradle.tooling.internal.provider.BuildActionResult@6ff154c9]
+13:28:31.452 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:28:31.462 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=9a69f4e9-a69c-46a1-ab25-b6bd6c2ffda6.1, currentDir=E:\dev_tool\eclipse}
+13:28:31.465 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received class org.gradle.launcher.daemon.protocol.Finished
+13:28:31.465 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3ed7988a
+13:28:31.465 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@3ed7988a
+13:28:31.465 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received null
+13:28:31.465 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: stopping connection
+13:28:31.466 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:28:31.466 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: stopping connection
+13:28:31.512 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:52741 to /127.0.0.1:51392.
+13:28:31.529 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.Build
+13:28:31.530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}
+13:28:31.530 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}.
+13:28:31.531 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse} with connection: socket connection from /127.0.0.1:51392 to /127.0.0.1:52741.
+13:28:31.531 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7872127c] after 0.0 minutes of idle
+13:28:31.531 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:31.532 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:31.532 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:28:31.533 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:28:31.535 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:28:31.536 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437542911536
+13:28:31.536 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:28:31.536 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}. Dispatching build started information...
+13:28:31.537 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:28:31.540 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\ricky, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log, JAVA_HOME=C:\Program Files\Java\jdk1.7.0_60, ProgramFiles(x86)=C:\Program Files (x86), windows_tracing_flags=3, TEMP=C:\Users\ricky\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_60\bin;E:\dev_tool\gradle-2.2.1-all\gradle-2.2.1\bin;E:\soft\TortoiseGit\bin;E:\soft\apache-maven-3.2.1\bin;E:\soft\TortoiseSVN1.7\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;E:\soft\apache-maven-3.2.1\bin;;C:\Program Files (x86)\Instantclient;C:\Program Files (x86)\Instantclient\bin;C:\Users\ricky\AppData\Roaming\npm, HOMEDRIVE=C:, PROCESSOR_REVISION=3c03, USERDOMAIN=ricky-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, tomcat_home=E:\soft\apache-tomcat-7.0.61, SESSIONNAME=Console, TMP=C:\Users\ricky\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\RICKY-PC, M2_HOME=E:\soft\apache-maven-3.2.1, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\ricky, GRADLE_USER_HOME=E:\myrepo, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\ricky\AppData\Local, COMPUTERNAME=RICKY-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=ricky, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\ricky\AppData\Roaming}
+13:28:31.541 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:28:31.541 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 4560). The daemon log file: E:\myrepo\daemon\2.2.1\daemon-4560.out.log
+13:28:31.545 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:28:31.545 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+13:28:31.547 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:28:31.547 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.2]
+13:28:31.547 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:28:31.547 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+:cleanEclipseClasspath UP-TO-DATE
+:cleanEclipseJdt UP-TO-DATE
+:cleanEclipseProject UP-TO-DATE
+:cleanEclipse UP-TO-DATE
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 1.229 secs
+13:28:32.720 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:28:32.721 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:28:32.722 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\buildscript).
+13:28:32.722 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\git\mySite\zuba\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_cjtxgq89d947yj9wwrfmgb91x\ProjectScript\no_buildscript).
+13:28:32.723 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (C:\Users\ricky\git\mySite\zuba\.gradle\2.2.1\taskArtifacts\taskArtifacts.bin)
+13:28:32.724 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (C:\Users\ricky\git\mySite\zuba\.gradle\2.2.1\taskArtifacts\outputFileStates.bin)
+13:28:32.724 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (C:\Users\ricky\git\mySite\zuba\.gradle\2.2.1\taskArtifacts\fileSnapshots.bin)
+13:28:32.724 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\ricky\git\mySite\zuba\.gradle\2.2.1\taskArtifacts\fileHashes.bin)
+13:28:32.725 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (C:\Users\ricky\git\mySite\zuba\.gradle\2.2.1\taskArtifacts).
+13:28:32.725 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (E:\myrepo\caches\2.2.1\plugin-resolution) was closed 0 times.
+13:28:32.726 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-repository.bin)
+13:28:32.726 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-artifacts.bin)
+13:28:32.726 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-versions.bin)
+13:28:32.726 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-metadata.bin)
+13:28:32.727 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (E:\myrepo\caches\modules-2).
+13:28:32.727 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (E:\myrepo\caches\jars-1) was closed 0 times.
+13:28:32.728 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 2, disk reads: 1 (avg: 0.002 secs, total: 0.002 secs)
+13:28:32.728 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:28:32.729 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+13:28:32.729 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 4, cache instances: 2, modules served from cache: 60, artifacts: 3
+13:28:32.729 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:28:32.762 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7872127c]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@564ea86d with state Running
+13:28:32.762 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7872127c]
+13:28:32.762 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437542912762
+13:28:32.762 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:32.763 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:28:32.763 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:28:32.764 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:28:32.765 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:28:32.766 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=org.gradle.tooling.internal.provider.BuildActionResult@29c408c6]
+13:28:32.766 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:28:32.767 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Jul 22 16:28:32 CST 2015
+13:28:32.767 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=347382fb-62e5-46de-bb2c-a2fb82cab7a0.1, currentDir=E:\dev_tool\eclipse}
+13:28:32.769 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.Finished
+13:28:32.770 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@68a33067
+13:28:32.770 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@68a33067
+13:28:32.770 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received null
+13:28:32.770 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: stopping connection
+13:28:32.770 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:28:32.772 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: stopping connection
+15:11:40.696 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:56491 to /127.0.0.1:51392.
+15:11:40.708 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.Build
+15:11:40.709 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}
+15:11:40.709 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}.
+15:11:40.709 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse} with connection: socket connection from /127.0.0.1:51392 to /127.0.0.1:56491.
+15:11:40.710 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@4b642b59] after 103.0 minutes of idle
+15:11:40.710 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+15:11:40.710 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+15:11:40.711 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+15:11:40.712 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+15:11:40.714 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+15:11:40.715 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437549100714
+15:11:40.715 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+15:11:40.718 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}. Dispatching build started information...
+15:11:40.718 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+15:11:40.720 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\ricky, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log, JAVA_HOME=C:\Program Files\Java\jdk1.7.0_60, ProgramFiles(x86)=C:\Program Files (x86), windows_tracing_flags=3, TEMP=C:\Users\ricky\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_60\bin;E:\dev_tool\gradle-2.2.1-all\gradle-2.2.1\bin;E:\soft\TortoiseGit\bin;E:\soft\apache-maven-3.2.1\bin;E:\soft\TortoiseSVN1.7\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;E:\soft\apache-maven-3.2.1\bin;;C:\Program Files (x86)\Instantclient;C:\Program Files (x86)\Instantclient\bin;C:\Users\ricky\AppData\Roaming\npm, HOMEDRIVE=C:, PROCESSOR_REVISION=3c03, USERDOMAIN=ricky-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, tomcat_home=E:\soft\apache-tomcat-7.0.61, SESSIONNAME=Console, TMP=C:\Users\ricky\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\RICKY-PC, M2_HOME=E:\soft\apache-maven-3.2.1, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\ricky, GRADLE_USER_HOME=E:\myrepo, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\ricky\AppData\Local, COMPUTERNAME=RICKY-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=ricky, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\ricky\AppData\Roaming}
+15:11:40.720 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+15:11:40.721 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 4560). The daemon log file: E:\myrepo\daemon\2.2.1\daemon-4560.out.log
+15:11:40.721 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+15:11:40.722 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b0c742ef-c9cc-49b7-bda3-76812f9579ed,javaHome=C:\Program Files\Java\jdk1.7.0_60,daemonRegistryDir=E:\myrepo\daemon,pid=4560,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+15:11:40.723 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.CloseInput
+15:11:40.723 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=91abe686-4c55-4728-99ba-673f6391c307.2]
+15:11:40.723 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+15:11:40.724 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/1.2.3.RELEASE/spring-boot-gradle-plugin-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-tools/1.2.3.RELEASE/spring-boot-tools-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-parent/1.2.3.RELEASE/spring-boot-parent-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-dependencies/1.2.3.RELEASE/spring-boot-dependencies-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/spring-framework-bom/4.1.6.RELEASE/spring-framework-bom-4.1.6.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-releasetrain/Evans-SR2/spring-data-releasetrain-Evans-SR2.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/build/spring-data-build/1.5.2.RELEASE/spring-data-build-1.5.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/integration/spring-integration-bom/4.1.2.RELEASE/spring-integration-bom-4.1.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-bom/3.2.7.RELEASE/spring-security-bom-3.2.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/springloaded/1.2.0.RELEASE/springloaded-1.2.0.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/io/spring/gradle/dependency-management-plugin/0.5.1.RELEASE/dependency-management-plugin-0.5.1.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-loader-tools/1.2.3.RELEASE/spring-boot-loader-tools-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-dependency-tools/1.2.3.RELEASE/spring-boot-dependency-tools-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-gradle-plugin/1.2.3.RELEASE/spring-boot-gradle-plugin-1.2.3.RELEASE.jar
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/springloaded/1.2.0.RELEASE/springloaded-1.2.0.RELEASE.jar
+Download http://192.16.150.201:8081/nexus/content/groups/public/io/spring/gradle/dependency-management-plugin/0.5.1.RELEASE/dependency-management-plugin-0.5.1.RELEASE.jar
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-loader-tools/1.2.3.RELEASE/spring-boot-loader-tools-1.2.3.RELEASE.jar
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-dependency-tools/1.2.3.RELEASE/spring-boot-dependency-tools-1.2.3.RELEASE.jar
+
+BUILD SUCCESSFUL
+
+Total time: 11.983 secs
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/projectlombok/lombok/1.12.4/lombok-1.12.4.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-web/1.2.3.RELEASE/spring-boot-starter-web-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starters/1.2.3.RELEASE/spring-boot-starters-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-security/1.2.3.RELEASE/spring-boot-starter-security-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/oauth/spring-security-oauth2/2.0.7.RELEASE/spring-security-oauth2-2.0.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/oauth/spring-security-oauth-parent/2.0.7.RELEASE/spring-security-oauth-parent-2.0.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter/1.2.3.RELEASE/spring-boot-starter-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-tomcat/1.2.3.RELEASE/spring-boot-starter-tomcat-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.4.5/jackson-databind-2.4.5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/jackson/jackson-parent/2.4/jackson-parent-2.4.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/oss-parent/16/oss-parent-16.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-config/3.2.7.RELEASE/spring-security-config-3.2.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-web/3.2.7.RELEASE/spring-security-web-3.2.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-core/3.2.6.RELEASE/spring-security-core-3.2.6.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot/1.2.3.RELEASE/spring-boot-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-autoconfigure/1.2.3.RELEASE/spring-boot-autoconfigure-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-logging/1.2.3.RELEASE/spring-boot-starter-logging-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/embed/tomcat-embed-core/8.0.20/tomcat-embed-core-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/embed/tomcat-embed-el/8.0.20/tomcat-embed-el-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.20/tomcat-embed-logging-juli-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.20/tomcat-embed-websocket-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-core/2.4.5/jackson-core-2.4.5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.11/jcl-over-slf4j-1.7.11.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.11/slf4j-parent-1.7.11.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/jul-to-slf4j/1.7.11/jul-to-slf4j-1.7.11.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/log4j-over-slf4j/1.7.11/log4j-over-slf4j-1.7.11.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/ch/qos/logback/logback-parent/1.1.3/logback-parent-1.1.3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.11/slf4j-api-1.7.11.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-core/3.2.7.RELEASE/spring-security-core-3.2.7.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-test/1.2.3.RELEASE/spring-boot-starter-test-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-actuator/1.2.3.RELEASE/spring-boot-starter-actuator-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/security/spring-security-jwt/1.0.3.RELEASE/spring-security-jwt-1.0.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/spring-test/4.1.6.RELEASE/spring-test-4.1.6.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-actuator/1.2.3.RELEASE/spring-boot-actuator-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/objenesis/objenesis/2.1/objenesis-2.1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-redis/1.2.3.RELEASE/spring-boot-starter-redis-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/spring-context-support/4.1.6.RELEASE/spring-context-support-4.1.6.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-redis/1.4.2.RELEASE/spring-data-redis-1.4.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/redis/clients/jedis/2.5.2/jedis-2.5.2.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hibernate/hibernate-ehcache/4.3.8.Final/hibernate-ehcache-4.3.8.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/oracle/ojdbc6/11.2.0.3.0/ojdbc6-11.2.0.3.0.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/jboss-parent/10/jboss-parent-10.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/net/sf/ehcache/ehcache-core/2.4.3/ehcache-core-2.4.3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/net/sf/ehcache/ehcache-parent/2.2/ehcache-parent-2.2.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/antlr/antlr/2.7.7/antlr-2.7.7.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/jboss/jboss-parent/5/jboss-parent-5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-data-rest/1.2.3.RELEASE/spring-boot-starter-data-rest-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-data-jpa/1.2.3.RELEASE/spring-boot-starter-data-jpa-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.4.5/jackson-annotations-2.4.5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-rest-webmvc/2.2.2.RELEASE/spring-data-rest-webmvc-2.2.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-rest-parent/2.2.2.RELEASE/spring-data-rest-parent-2.2.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/build/spring-data-parent/1.5.2.RELEASE/spring-data-parent-1.5.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/spring-framework-bom/4.0.9.RELEASE/spring-framework-bom-4.0.9.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-aop/1.2.3.RELEASE/spring-boot-starter-aop-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-jdbc/1.2.3.RELEASE/spring-boot-starter-jdbc-1.2.3.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/hibernate/hibernate-entitymanager/4.3.8.Final/hibernate-entitymanager-4.3.8.Final.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/net/java/jvnet-parent/3/jvnet-parent-3.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-jpa/1.7.2.RELEASE/spring-data-jpa-1.7.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/spring-aspects/4.1.6.RELEASE/spring-aspects-4.1.6.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-rest-core/2.2.2.RELEASE/spring-data-rest-core-2.2.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/github/fge/json-patch/1.7/json-patch-1.7.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.10/slf4j-parent-1.7.10.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/aspectj/aspectjweaver/1.8.5/aspectjweaver-1.8.5.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/tomcat-jdbc/8.0.20/tomcat-jdbc-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/data/spring-data-commons/1.9.2.RELEASE/spring-data-commons-1.9.2.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/hateoas/spring-hateoas/0.16.0.RELEASE/spring-hateoas-0.16.0.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/plugin/spring-plugin-core/1.1.0.RELEASE/spring-plugin-core-1.1.0.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/springframework/plugin/spring-plugin/1.1.0.RELEASE/spring-plugin-1.1.0.RELEASE.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/atteo/evo-inflector/1.2/evo-inflector-1.2.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/atteo/parent/1.10/parent-1.10.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/github/fge/jackson-coreutils/1.6/jackson-coreutils-1.6.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/org/apache/tomcat/tomcat-juli/8.0.20/tomcat-juli-8.0.20.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/github/fge/msg-simple/1.1/msg-simple-1.1.pom
+Download http://192.16.150.201:8081/nexus/content/groups/public/com/github/fge/btf/1.2/btf-1.2.pom
+15:12:46.753 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+15:12:46.754 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+15:12:46.754 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file 'C:\Users\ricky\Desktop\projectTemplate\settings.gradle' (E:\myrepo\caches\2.2.1\scripts\settings_1kpmawrlrin9rwz00f8p0x2hp\SettingsScript\buildscript).
+15:12:46.754 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file 'C:\Users\ricky\Desktop\projectTemplate\settings.gradle' (E:\myrepo\caches\2.2.1\scripts\settings_1kpmawrlrin9rwz00f8p0x2hp\SettingsScript\no_buildscript).
+15:12:46.755 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_af1cyes2wmtffxlz42es5whwq\ProjectScript\buildscript).
+15:12:46.755 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_af1cyes2wmtffxlz42es5whwq\ProjectScript\no_buildscript).
+15:12:46.755 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\auth\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_e0m08dtm3q2pxliqi952oicpe\ProjectScript\buildscript).
+15:12:46.755 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\auth\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_e0m08dtm3q2pxliqi952oicpe\ProjectScript\no_buildscript).
+15:12:46.756 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\gateway\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_88ncg7f3uw36cjf151bkfiinm\ProjectScript\buildscript).
+15:12:46.756 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\gateway\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_88ncg7f3uw36cjf151bkfiinm\ProjectScript\no_buildscript).
+15:12:46.756 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\privilege\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_6jq9f3q63l0c40m4w8pdmp2u9\ProjectScript\buildscript).
+15:12:46.757 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\privilege\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_6jq9f3q63l0c40m4w8pdmp2u9\ProjectScript\no_buildscript).
+15:12:46.757 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\shared\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_4acgftkkqdpxfdo1e4ln45jma\ProjectScript\buildscript).
+15:12:46.757 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\shared\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_4acgftkkqdpxfdo1e4ln45jma\ProjectScript\no_buildscript).
+15:12:46.757 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\user\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_8uyxtsuo2xgzzdrc863wh5hzy\ProjectScript\buildscript).
+15:12:46.758 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\user\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_8uyxtsuo2xgzzdrc863wh5hzy\ProjectScript\no_buildscript).
+15:12:46.758 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\web\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_5t5fw3rdc6qdeub1d2ibo4czp\ProjectScript\buildscript).
+15:12:46.758 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\ricky\Desktop\projectTemplate\web\build.gradle' (E:\myrepo\caches\2.2.1\scripts\build_5t5fw3rdc6qdeub1d2ibo4czp\ProjectScript\no_buildscript).
+15:12:46.764 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (E:\myrepo\caches\2.2.1\plugin-resolution) was closed 0 times.
+15:12:46.764 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-repository.bin)
+15:12:46.765 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (E:\myrepo\caches\modules-2\metadata-2.14\artifact-at-url.bin)
+15:12:46.765 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (E:\myrepo\caches\modules-2\metadata-2.14\module-metadata.bin)
+15:12:46.765 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (E:\myrepo\caches\modules-2).
+15:12:46.766 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (E:\myrepo\caches\jars-1) was closed 0 times.
+15:12:46.768 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 12 (avg: 0.002 secs, total: 0.027 secs)
+15:12:46.769 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+15:12:46.769 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.003 secs
+15:12:46.769 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 388, cache instances: 2, modules served from cache: 2716, artifacts: 563
+15:12:46.770 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+15:12:46.995 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+15:12:46.996 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:46.996 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@4b642b59]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@564ea86d with state Running
+15:12:46.996 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56725<->192.16.150.201:8081 closed
+15:12:46.996 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@4b642b59]
+15:12:46.996 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56725<->192.16.150.201:8081 closed
+15:12:46.997 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1437549166997
+15:12:46.997 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:46.997 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+15:12:46.997 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:46.997 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [67bd6c47-9e28-40f6-9e4a-e482d74b1bc7 port:51392, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+15:12:46.998 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56694<->192.16.150.201:8081 closed
+15:12:46.998 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56694<->192.16.150.201:8081 closed
+15:12:46.998 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:46.998 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:46.998 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+15:12:46.999 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56536<->192.16.150.201:8081 closed
+15:12:46.999 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56536<->192.16.150.201:8081 closed
+15:12:46.999 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+15:12:46.999 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:47.000 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:47.000 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56507<->192.16.150.201:8081 closed
+15:12:47.000 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56507<->192.16.150.201:8081 closed
+15:12:47.000 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:47.000 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:47.001 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56505<->192.16.150.201:8081 closed
+15:12:47.001 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56505<->192.16.150.201:8081 closed
+15:12:47.001 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:47.001 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+15:12:47.001 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56500<->192.16.150.201:8081 closed
+15:12:47.002 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:56500<->192.16.150.201:8081 closed
+15:12:47.002 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+15:12:47.005 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+15:12:47.005 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=org.gradle.tooling.internal.provider.BuildActionResult@6f681fbb]
+15:12:47.005 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Jul 22 18:12:46 CST 2015
+15:12:47.005 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: dispatching class org.gradle.launcher.daemon.protocol.Success
+15:12:47.016 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=91abe686-4c55-4728-99ba-673f6391c307.1, currentDir=E:\dev_tool\eclipse}
+15:12:47.018 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.Finished
+15:12:47.018 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@7d36ef83
+15:12:47.018 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received null
+15:12:47.019 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+15:12:47.019 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+15:12:47.019 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+15:12:47.020 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
